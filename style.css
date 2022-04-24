@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro:wght@200&family=Titillium+Web:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1440px;
+}
+@media(min-width:992px){
+    .header-bottom .work .container{
+        max-width: 1640px;
+    }
+}
+@media(min-width:992px){
+    .related .container{
+        max-width: 1400px;
+    }
+}
+/*header*/
+.header-top{
+	height: 59px;
+	background: #1e1e1e;
+	text-transform: uppercase;
+	text-align: center;
+}
+.header-bottom{
+	text-transform: capitalize;
+}
+.header-bottom img{
+	margin-right: 16px;
+}
+.header-bottom li{
+	padding-left: 34px;
+}
+.bor-full{
+    width: 100%;
+    height: 1px;
+    background: #e5e5e5;
+}
+/*home*/
+.home .rectangle{
+    width: 105px;
+    height: 128px;
+    background: #f1f1f1;
+    margin: 0 13px 14px 0;
+}
+.home .line{
+    border: 1px solid #f1f1f1;
+    margin: 30px 0;
+}
+.home .first-special-img{
+    padding: 30px;
+    background: #f1f1f1;
+}
+.home .size-guide{
+    padding: 7px;
+    width: 147px;
+    height: 40px;
+    background: #f1f1f1; 
+}
+.home button{
+    margin-right: 10px;
+}
+.home h6{
+    text-transform: uppercase;
+}
+.home .add-to-cart{
+    width: 190px;
+    height: 55px;
+    background: #000;
+    color: #fff;
+}
+.home .add-to-number{
+    width: 67px;
+    height: 55px;
+}
+.home .text-grey{
+    color: #b1b1b1;
+    margin-left: 5px;
+}
+.home .span-icon{
+    margin-left: 20px;
+}
+.home .out-grey{
+    width: 320px;
+    height: 120px;
+    border: 2px solid #dbdbdb;
+    margin: 0 0 33px 40px;
+}
+.home .out-grey img{
+    margin: 32px 24px 37px 19px;
+}
+/*adj*/
+.adj-right{
+    padding: 140px 0 0 120px;
+}
+/*jame*/
+.jame{
+    background-image:url('img/alex-holyoake-563614-unsplash.png');
+    width: 100%;
+    height: 1000px;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+/*polyester*/
+.pol-left{
+    padding: 175px 120px 0 0;
+}
+/*related*/
+.related h2{
+    text-transform: capitalize;
+}
+.special-id{
+    padding: 27px;
+    background: #f1f1f1;
+}
+.related .p-opacity{
+    opacity: 0.5;
+}
+/*footer*/
+footer{
+    background: #161616;
+    color: #fff;
+}
+footer h6{
+    text-transform: uppercase;
+    padding: 70px 0 22px 0;
+}
+footer a{
+    text-transform: capitalize;
+    padding-bottom: 21px;
+}
+footer a, footer p{
+    opacity: 0.5;
+}
+footer .footer-bor{
+    border: 1px solid #48c8fd;
+    margin: 16px 0 31px ;
+}
+footer .footer-icon i{
+    padding: 15px;
+    background: #222;
+    margin-right: 14px;
+}
+footer .footer-mid-bor{
+    border: 1px solid #2a2a2a;
+    margin-top: 35px;
+}
+footer .footer-bottom{
+    height: 76px;
+}
