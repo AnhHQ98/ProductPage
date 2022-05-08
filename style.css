@@ -29,6 +29,7 @@ html{
 }
 .header-bottom{
 	text-transform: capitalize;
+    height: 96px;
 }
 .header-bottom img{
 	margin-right: 16px;
@@ -42,6 +43,9 @@ html{
     background: #e5e5e5;
 }
 /*home*/
+.home .brc{
+    padding: 38px 0 32px 0;
+}
 .home .rectangle{
     width: 105px;
     height: 128px;
@@ -94,6 +98,24 @@ html{
 .home .out-grey img{
     margin: 32px 24px 37px 19px;
 }
+.home .radio-1 input[type='radio']:checked{
+    background-color: #dc8e6a;
+    content: '';
+    visibility: visible;
+    border: 1px solid #fff;
+}
+.home .radio-2 input[type='radio']:checked{
+    background-color: #b36cd4;
+    content: '';
+    visibility: visible;
+    border: 1px solid #fff;
+}
+.home .radio-3 input[type='radio']:checked{
+    background-color: #6adcd8;
+    content: '';
+    visibility: visible;
+    border: 1px solid #fff;
+}
 /*adj*/
 .adj-right{
     padding: 140px 0 0 120px;
@@ -109,12 +131,21 @@ html{
     z-index: 1;
 }
 /*polyester*/
+.polyesters{
+    margin: 87px 0;
+}
 .pol-left{
     padding: 175px 120px 0 0;
+}
+.pol-left .bor{
+    width: 61px;
+    height: 2px;
+    background: #000;
 }
 /*related*/
 .related h2{
     text-transform: capitalize;
+    padding: 48px 0 54px 0;
 }
 .special-id{
     padding: 27px;
